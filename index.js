@@ -5,7 +5,8 @@ import axios from 'axios';
 try {
   (async () => {
     const response = await axios.get('https://httpbin.org/get');
-    core.setOutput("data", response);
+    core.setOutput("data", response.data);
+    console.log(response.data);
   })();
 } catch (error) {
   core.setFailed(error.message);
