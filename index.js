@@ -9,7 +9,9 @@ try {
     // core.setOutput("data", response.data);
     // console.log(response.data);
 
-    const response = await Octokit.rest.pulls.checkIfMerged({
+    const octokit = new Octokit({});
+
+    const response = await octokit.rest.pulls.checkIfMerged({
       owner: 'mul14',
       repo: 'demo',
       pull_number: 3,
