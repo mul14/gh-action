@@ -29734,14 +29734,6 @@ function wrappy (fn, cb) {
 
 /***/ }),
 
-/***/ 3329:
-/***/ ((module) => {
-
-module.exports = eval("require")("@octokit/rest");
-
-
-/***/ }),
-
 /***/ 9491:
 /***/ ((module) => {
 
@@ -29981,7 +29973,6 @@ var __webpack_exports__ = {};
 (() => {
 /* harmony import */ var _actions_core__WEBPACK_IMPORTED_MODULE_0__ = __nccwpck_require__(2949);
 /* harmony import */ var _actions_github__WEBPACK_IMPORTED_MODULE_1__ = __nccwpck_require__(7344);
-/* harmony import */ var _octokit_rest__WEBPACK_IMPORTED_MODULE_2__ = __nccwpck_require__(3329);
 
 
 
